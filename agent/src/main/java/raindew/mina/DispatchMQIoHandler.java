@@ -5,6 +5,7 @@ import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
 
 public class DispatchMQIoHandler extends IoHandlerAdapter {
+	
 
 	@Override
 	public void sessionCreated(IoSession session) throws Exception {
